@@ -3,7 +3,7 @@
 module.exports = ({ env }) => ({
   plugins: {
     "users-permissions": {
-      jwtSecret: process.env.JWT_SECRET || "yourSecretKeyHere",
+      jwtSecret: "CC1EpvWL9T1Rg8cj13XBcA",
       enabled: true,
       config: {
         jwt: {
