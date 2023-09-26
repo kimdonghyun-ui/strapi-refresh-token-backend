@@ -1,13 +1,8 @@
 // config/plugins.js
 
 module.exports = ({ env }) => ({
-  plugins: {
-    "users-permissions": {
-      jwtSecret: process.env.JWT_SECRET || "yourSecretKeyHere", // 환경 변수를 사용하거나 직접 시크릿 키를 입력합니다.
-    },
-  },
-
   "users-permissions": {
+    jwtSecret: "CC1EpvWL9T1Rg8cj13XBcA",
     enabled: true,
     config: {
       jwt: {
